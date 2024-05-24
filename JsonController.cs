@@ -24,10 +24,10 @@ namespace WebApplication3.Controllers
        
         [HttpGet]
          
-        public object GetFruit()
+        public object GetBuffer()
         {
             
-                string allText = System.IO.File.ReadAllText(@"C:\Windows\Api\MyJsonApi\JsonFolder\Web.json");
+                string allText = System.IO.File.ReadAllText(@"C:\Windows\Api\JsonApi\JsonFolder\Web.json");
 
                 object jsonObject = JsonConvert.DeserializeObject<Fruits>(allText);
                 return (jsonObject);
