@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 
-namespace MyJsonApi.Models
+namespace JsonApi.Models
 {
 
 
-public class Fruits
+public class _buffer
 {
-    public IList <Fruit> _fruits {get; set;}
+    public IList <mata> _matas {get; set;}
 
         public class  id
         {
